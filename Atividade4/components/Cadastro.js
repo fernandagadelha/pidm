@@ -10,7 +10,7 @@ export default class Cadastro extends Component {
         super(props)
         this.state = {
             nome: '',
-            idade: 0,
+            idade: null,
             email: '',
         }
 
